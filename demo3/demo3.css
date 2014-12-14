@@ -35,6 +35,39 @@ html, body {
 .slide_page_4 {
     background: url(../img/pic4.jpg) no-repeat;
 }
+
+.slide_page:before {
+    content: '';
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    margin-left: -23px;
+    background: url(../img/arrow.png) no-repeat center 0;
+    -webkit-animation: start 1.5s infinite ease-in-out;
+}
+.slide_page_1:before {
+    left: 50%;
+    top: calc(100% / 4  - 2.5%);
+}
+.slide_page_2:before {
+    left: 50%;
+    top: calc(100% / 4 * 2 - 2.5%);
+}
+.slide_page_3:before {
+    left: 50%;
+    top: calc(100% / 4 * 3 - 2.5%);
+}
+.slide_page_4:before {
+    content: none;
+}
+
+
+@-webkit-keyframes start {
+    0%,30% {opacity: 0;-webkit-transform: translate(0,10px);}
+    60% {opacity: 1;-webkit-transform: translate(0,0);}
+    100% {opacity: 0;-webkit-transform: translate(0,8px);}
+}
+
 /************  transition  **************/
 .transition_fast {
     -webkit-transition: .6s ease;
