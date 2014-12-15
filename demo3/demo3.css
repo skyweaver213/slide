@@ -44,6 +44,10 @@ html, body {
     margin-left: -23px;
     background: url(../img/arrow.png) no-repeat center 0;
     -webkit-animation: start 1.5s infinite ease-in-out;
+    -moz-animation: start 1.5s infinite ease-in-out;
+    -ms-animation: start 1.5s infinite ease-in-out;
+    -o-animation: start 1.5s infinite ease-in-out;
+    animation: start 1.5s infinite ease-in-out;
 }
 .slide_page_1:before {
     left: 50%;
@@ -63,12 +67,36 @@ html, body {
 
 
 @-webkit-keyframes start {
-    0%,30% {opacity: 0;-webkit-transform: translate(0,10px);}
-    60% {opacity: 1;-webkit-transform: translate(0,0);}
-    100% {opacity: 0;-webkit-transform: translate(0,8px);}
+    0%,30% {opacity: 0; -webkit-transform: translate(0,10px); }
+    60% {opacity: 1; -webkit-transform: translate(0,0); }
+    100% {opacity: 0; -webkit-transform: translate(0,8px); }
+}
+@-moz-keyframes start {
+    0%,30% {opacity: 0; -moz-transform: translate(0,10px); }
+    60% {opacity: 1; -moz-transform: translate(0,0); }
+    100% {opacity: 0; -moz-transform: translate(0,8px); }
+}
+@-ms-keyframes start {
+    0%,30% {opacity: 0; -ms-transform: translate(0,10px); }
+    60% {opacity: 1; -ms-transform: translate(0,0); }
+    100% {opacity: 0; -ms-transform: translate(0,8px); }
+}
+@-o-keyframes start {
+    0%,30% {opacity: 0; -o-transform: translate(0,10px); }
+    60% {opacity: 1; -o-transform: translate(0,0); }
+    100% {opacity: 0; -o-transform: translate(0,8px); }
+}
+@-keyframes start {
+    0%,30% {opacity: 0; transform: translate(0,10px);}
+    60% {opacity: 1; transform: translate(0,0);}
+    100% {opacity: 0; transform: translate(0,8px);}
 }
 
 /************  transition  **************/
 .transition_fast {
     -webkit-transition: .6s ease;
+    -moz-transition: .6s ease;
+    -ms-transition: .6s ease;
+    -o-transition: .6s ease;
+    transition: .6s ease;
 }
