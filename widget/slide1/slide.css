@@ -28,22 +28,22 @@ html, body {
     background-size: 100% 100% !important;
 }
 .slide_page_1 {
-    background: url(../img/pic1.jpg) no-repeat;
+    background: url(../../img/pic1.jpg) no-repeat;
 }
 
 .slide_page_2 {
-    background: url(../img/pic2.jpg) no-repeat;
+    background: url(../../img/pic2.jpg) no-repeat;
 }
 
 .slide_page_3 {
-    background: url(../img/pic3.jpg) no-repeat;
+    background: url(../../img/pic3.jpg) no-repeat;
 }
 
 .slide_page_4 {
-    background: url(../img/pic4.jpg) no-repeat;
+    background: url(../../img/pic4.jpg) no-repeat;
 }
 .slide_page_5 {
-    background: url(../img/pic1.jpg) no-repeat;
+    background: url(../../img/pic1.jpg) no-repeat;
 }
 .slide_page:before {
     content: '';
@@ -51,7 +51,7 @@ html, body {
     width: 47px;
     height: 47px;
     margin-left: -23px;
-    background: url(../img/arrow.png) no-repeat center 0;
+    background: url(../../img/arrow.png) no-repeat center 0;
     -webkit-animation: start 1.5s infinite ease-in-out;
     -moz-animation: start 1.5s infinite ease-in-out;
     -ms-animation: start 1.5s infinite ease-in-out;
@@ -94,11 +94,7 @@ html, body {
     60% {opacity: 1; -o-transform: translate(0,0);}
     100% {opacity: 0; -o-transform: translate(0,8px);}
 }
-@-keyframes start {
-    0%,30% {opacity: 0; transform: translate(0,10px);}
-    60% {opacity: 1; transform: translate(0,0);}
-    100% {opacity: 0; transform: translate(0,8px);}
-}
+
 
 
 /************  slide up **************/
@@ -150,10 +146,6 @@ html, body {
     from { }
     to { -o-transform: translateY(-100%); }
 }
-@-keyframes toTop {
-    from { }
-    to { transform: translateY(-100%); }
-}
 
 @-webkit-keyframes fromTop {
     from { -webkit-transform: translateY(-100%); }
@@ -188,6 +180,7 @@ html, body {
     to { -o-transform: translateY(100%); }
 }
 
+
 @-webkit-keyframes fromBottom {
     from { -webkit-transform: translateY(100%); }
 }
@@ -199,7 +192,4 @@ html, body {
 }
 @-o-keyframes fromBottom {
     from { -o-transform: translateY(100%); }
-}
-@-keyframes fromBottom {
-    from { transform: translateY(100%); }
 }
