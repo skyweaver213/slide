@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>带吸附，微信滑动翻页效果</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=320.1, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./slide.css">
 </head>
 <body>
-
+<div class="slide_div">
+    <div class="slide_page_1 slide_page current"></div>
+    <div class="slide_page_2 slide_page hide"></div>
+    <div class="slide_page_3 slide_page hide"></div>
+    <div class="slide_page_4 slide_page hide"></div>
+</div>
 </body>
+<script src="../../zepto.js"></script>
+<script src="./slide.js"></script>
+<script>
+    /*
+     param1 滑动页面的class或者 id  -------------  (必传)
+     param2 一共几个滑动的页面      -------------  (必传)
+     param3 吸附翻页的范围      -------------  (不必传)
+     param4 滑动页面委托事件的父节点，不传默认是document (不能是自身滑动的容器)
+     */
+    slide('.slide_div', 4, 150);
+</script>
 </html>
