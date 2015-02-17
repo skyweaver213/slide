@@ -54,6 +54,6 @@ function slide(slide_page_dom, page_count, slide_range, parent_wrap) {
             cur_page++;
         }
 
-        $(this).css('-webkit-transform', 'translateY('+ (-100 * (+cur_page)/4) +'%) translateZ(0)');
+        $(this).css('-webkit-transform', 'translateY('+ (-100 * (+cur_page)/page_count) +'%) translateZ(0)');
     });
 }
