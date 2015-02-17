@@ -44,10 +44,41 @@
       <file leaf-file-name="slide.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/widget/slide2/slide.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="21" column="47" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="1216">
+=======
+            <state line="56" column="86" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.7383821" vertical-offset="635" max-vertical-offset="1216">
+>>>>>>> master
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo3.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo3/demo3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="23" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.0" vertical-offset="426" max-vertical-offset="1178">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo2.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo2/demo2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="1178">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo1/demo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="7" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,6 +87,7 @@
         <entry file="file://$PROJECT_DIR$/widget/slide1/slide.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="57" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1121">
+<<<<<<< HEAD
               <folding />
             </state>
           </provider>
@@ -65,6 +97,8 @@
         <entry file="file://$PROJECT_DIR$/demo3/demo3.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="48" column="41" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.5421687" vertical-offset="597" max-vertical-offset="1178">
+=======
+>>>>>>> master
               <folding />
             </state>
           </provider>
@@ -97,8 +131,9 @@
         <option value="$PROJECT_DIR$/widget/slide1/slide.html" />
         <option value="$PROJECT_DIR$/widget/slide1/slide.js" />
         <option value="$PROJECT_DIR$/widget/slide2/slide.css" />
-        <option value="$PROJECT_DIR$/widget/slide2/slide.js" />
         <option value="$PROJECT_DIR$/widget/slide2/slide.html" />
+        <option value="$PROJECT_DIR$/widget/slide2/slide.js" />
+        <option value="$PROJECT_DIR$/demo3/demo3.js" />
       </list>
     </option>
   </component>
@@ -302,7 +337,11 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982156" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21156661" sideWeight="0.649162" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18887262" sideWeight="0.649162" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> master
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23288637" sideWeight="0.40306833" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -334,11 +373,6 @@
         <state line="3" column="1" selection-start="0" selection-end="2796" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2717" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo1/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="7" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.82988507" vertical-offset="0" max-vertical-offset="870" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zepto.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="281" column="58" selection-start="11362" selection-end="11369" vertical-scroll-proportion="0.33333334" vertical-offset="5069" max-vertical-offset="29545" />
@@ -347,6 +381,7 @@
     <entry file="file://$PROJECT_DIR$/demo1/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="31" selection-start="536" selection-end="536" vertical-scroll-proportion="-12.892858" vertical-offset="0" max-vertical-offset="494" />
+<<<<<<< HEAD
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2/demo2.js">
@@ -354,6 +389,8 @@
         <state line="6" column="53" selection-start="216" selection-end="216" vertical-scroll-proportion="0.17592593" vertical-offset="0" max-vertical-offset="1178">
           <folding />
         </state>
+=======
+>>>>>>> master
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2/demo2.html">
@@ -363,9 +400,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/widget/slide1/slide.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="190" selection-end="190" vertical-scroll-proportion="-0.097913325" vertical-offset="403" max-vertical-offset="3819">
-          <folding />
-        </state>
+        <state line="18" column="1" selection-start="190" selection-end="190" vertical-scroll-proportion="-0.097913325" vertical-offset="403" max-vertical-offset="3819" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2/demo2.css">
@@ -378,6 +413,8 @@
     <entry file="file://$PROJECT_DIR$/demo3/demo3.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="51" selection-start="0" selection-end="2462" vertical-scroll-proportion="0.0" vertical-offset="760" max-vertical-offset="2033" />
+<<<<<<< HEAD
+=======
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo3/demo3.html">
@@ -390,13 +427,18 @@
         <state line="12" column="52" selection-start="0" selection-end="819" vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="608">
           <folding />
         </state>
+>>>>>>> master
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/widget/slide2/slide.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="9" column="0" selection-start="237" selection-end="460" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="494" />
+=======
         <state line="61" column="4" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0" vertical-offset="1435" max-vertical-offset="2033">
           <folding />
         </state>
+>>>>>>> master
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/widget/slide2/slide.html">
@@ -406,12 +448,45 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/widget/slide2/slide.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="4" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0" vertical-offset="1435" max-vertical-offset="2033">
+=======
+    <entry file="file://$PROJECT_DIR$/demo1/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="7" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+>>>>>>> master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/widget/slide2/slide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="50" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="627">
+=======
+    <entry file="file://$PROJECT_DIR$/demo2/demo2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1178">
+>>>>>>> master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/widget/slide2/slide.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="47" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="1216">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/demo3/demo3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="23" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.0" vertical-offset="426" max-vertical-offset="1178">
+          <folding />
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -424,8 +499,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo3/demo3.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="48" column="41" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.5421687" vertical-offset="597" max-vertical-offset="1178">
           <folding />
+=======
+        <state line="56" column="86" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.7383821" vertical-offset="635" max-vertical-offset="1216">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+>>>>>>> master
         </state>
       </provider>
     </entry>
