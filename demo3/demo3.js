@@ -2,6 +2,7 @@
  * Created by huangjianhua on 14-12-14.
  */
 $(function () {
+
     var cur_page= 0, touchFirst_obj, touchLast_obj, touchEnd_obj, moveY, startTranslateY, currentTranslateY,
         slide_range = 130,
         page_count = $('.slide_div div').length || 4;
