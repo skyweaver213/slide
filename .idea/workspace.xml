@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6326f62-60ed-45b4-9ebd-4d0ddcdd5b0b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/widget/slide2/slide.css" afterPath="$PROJECT_DIR$/widget/slide2/slide.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/widget/slide2/slide.html" afterPath="$PROJECT_DIR$/widget/slide2/slide.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/widget/slide2/slide.js" afterPath="$PROJECT_DIR$/widget/slide2/slide.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo3/demo3.html" afterPath="$PROJECT_DIR$/demo3/demo3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo3/demo3.js" afterPath="$PROJECT_DIR$/demo3/demo3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="slide.iws" />
@@ -28,39 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="slide.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/widget/slide2/slide.css">
+      <file leaf-file-name="demo3.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo3/demo3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="4" selection-start="1205" selection-end="1205" vertical-scroll-proportion="5.52" vertical-offset="1435" max-vertical-offset="2033">
+            <state line="4" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="1197">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slide.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/widget/slide2/slide.html">
+      <file leaf-file-name="demo3.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo3/demo3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="50" selection-start="811" selection-end="811" vertical-scroll-proportion="-15.607142" vertical-offset="0" max-vertical-offset="627">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slide.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/widget/slide2/slide.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="219" selection-end="219" vertical-scroll-proportion="0.24918033" vertical-offset="0" max-vertical-offset="1216">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slide.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/widget/slide1/slide.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="57" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1121">
+            <state line="3" column="19" selection-start="49" selection-end="49" vertical-scroll-proportion="-0.010638298" vertical-offset="65" max-vertical-offset="817">
               <folding />
             </state>
           </provider>
@@ -95,14 +74,16 @@
         <option value="$PROJECT_DIR$/widget/slide2/slide.css" />
         <option value="$PROJECT_DIR$/widget/slide2/slide.js" />
         <option value="$PROJECT_DIR$/widget/slide2/slide.html" />
+        <option value="$PROJECT_DIR$/demo3/demo3.js" />
+        <option value="$PROJECT_DIR$/demo3/demo3.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="393" />
-    <option name="y" value="131" />
-    <option name="width" value="1084" />
-    <option name="height" value="783" />
+    <option name="x" value="-1534" />
+    <option name="y" value="51" />
+    <option name="width" value="1243" />
+    <option name="height" value="915" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -180,10 +161,6 @@
               <option name="myItemId" value="widget" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slide1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -235,7 +212,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="settings.github" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/work/Flight.Mobile.H5_2/webapp/flightevent" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
@@ -291,14 +268,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="393" y="131" width="1084" height="783" extended-state="0" />
+    <frame x="-1534" y="51" width="1243" height="915" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914925" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982156" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21161048" sideWeight="0.649162" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18418908" sideWeight="0.649162" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23288637" sideWeight="0.40306833" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -340,96 +317,72 @@
         <state line="281" column="58" selection-start="11362" selection-end="11369" vertical-scroll-proportion="0.33333334" vertical-offset="5069" max-vertical-offset="29545" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo1/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="31" selection-start="536" selection-end="536" vertical-scroll-proportion="-12.892858" vertical-offset="0" max-vertical-offset="494">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo2/demo2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="53" selection-start="216" selection-end="216" vertical-scroll-proportion="0.17592593" vertical-offset="0" max-vertical-offset="1178">
-          <folding />
-        </state>
+        <state line="6" column="53" selection-start="216" selection-end="216" vertical-scroll-proportion="0.17592593" vertical-offset="0" max-vertical-offset="1178" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2/demo2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="7" selection-start="568" selection-end="568" vertical-scroll-proportion="0.58225805" vertical-offset="0" max-vertical-offset="620">
-          <folding />
-        </state>
+        <state line="19" column="7" selection-start="568" selection-end="568" vertical-scroll-proportion="0.58225805" vertical-offset="0" max-vertical-offset="620" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/widget/slide1/slide.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="190" selection-end="190" vertical-scroll-proportion="-0.097913325" vertical-offset="403" max-vertical-offset="3819">
-          <folding />
-        </state>
+        <state line="18" column="1" selection-start="190" selection-end="190" vertical-scroll-proportion="-0.097913325" vertical-offset="403" max-vertical-offset="3819" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/slide1/slide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="52" selection-start="0" selection-end="819" vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="608" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/slide1/slide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="57" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1121" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="494" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo2/demo2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="1" selection-start="4410" selection-end="4410" vertical-scroll-proportion="0.66773677" vertical-offset="3156" max-vertical-offset="3990">
-          <folding />
-        </state>
+        <state line="98" column="6" selection-start="2196" selection-end="2196" vertical-scroll-proportion="0.0" vertical-offset="1532" max-vertical-offset="3990" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo3/demo3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="51" selection-start="0" selection-end="2462" vertical-scroll-proportion="0.0" vertical-offset="760" max-vertical-offset="2033">
+        <state line="38" column="20" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="2033" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/slide2/slide.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="4" selection-start="1205" selection-end="1205" vertical-scroll-proportion="0.0" vertical-offset="1435" max-vertical-offset="2033" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/slide2/slide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="34" selection-start="602" selection-end="602" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/slide2/slide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="53" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0" vertical-offset="293" max-vertical-offset="1216" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3/demo3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1197">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo3/demo3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="237" selection-end="460" vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="494">
+        <state line="3" column="19" selection-start="49" selection-end="49" vertical-scroll-proportion="-0.010638298" vertical-offset="65" max-vertical-offset="817">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/slide1/slide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="52" selection-start="0" selection-end="819" vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="608">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo3/demo3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="0" selection-end="2060" vertical-scroll-proportion="0.30393702" vertical-offset="54" max-vertical-offset="1178">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/slide1/slide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="57" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1121">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/slide2/slide.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="4" selection-start="1205" selection-end="1205" vertical-scroll-proportion="5.52" vertical-offset="1435" max-vertical-offset="2033">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/slide2/slide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="50" selection-start="811" selection-end="811" vertical-scroll-proportion="-15.607142" vertical-offset="0" max-vertical-offset="627">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/widget/slide2/slide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="219" selection-end="219" vertical-scroll-proportion="0.24918033" vertical-offset="0" max-vertical-offset="1216">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
