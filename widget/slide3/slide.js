@@ -1,5 +1,5 @@
 /**
- * Created by huangjianhua on 14-12-20.
+ * Created bX huangjianhua on 14-12-20.
  */
 /*
  param1 所有用到参数的obj {
@@ -17,7 +17,7 @@ function slide(options) {
     //默认的值
     var defaultObj = {
         cur_page: 0,
-        slide_range: 130,
+        slide_range: 50,
         parent_wrap: document
     };
 
@@ -36,12 +36,12 @@ function slide(options) {
     var touchFirst_obj;
     //保存touchend的事件对象
     var touchLast_obj;
-    //touch事件移动的Y轴距里
-    var moveY;
-    //touchstart开始时translateY的坐标点
-    var startTranslateY;
-    //touchmove时translateY的坐标点
-    var currentTranslateY;
+    //touch事件移动的X轴距里
+    var moveX;
+    //touchstart开始时translateX的坐标点
+    var startTranslateX;
+    //touchmove时translateX的坐标点
+    var currentTranslateX;
     //当touchmove大于设置的slide_range触发翻页
     var slide_range = +defaultObj.slide_range;
     //一共滑动总页数
@@ -51,7 +51,7 @@ function slide(options) {
 
 
     //兼容不支持calc的浏览器
-    $slide_page.css('height', (100 / page_count) + '%');
+    $slide_page.css('width', (100 / page_count) + '%');
 
 
     //滑动页面的事件绑定
@@ -63,18 +63,18 @@ function slide(options) {
         e.stopPropagation();
 
         touchFirst_obj = {
-            startY : e.touches[0].clientY
+            startX : e.touches[0].clientX
         };
 
         //移除transition的过渡效果
         $(this).removeClass('transition_fast');
 
-        //取translateY的值
+        //取translateX的值
         var transfrom_info = window.getComputedStyle(e.currentTarget, null).getPropertyValue("-webkit-transform").match(/matrix\((\d+,\s?){1,5}(\-?\d+)/);
-        startTranslateY = transfrom_info && transfrom_info[2] || 0;
+        startTranslateX = transfrom_info && transfrom_info[2] || 0;
 
-        $(this).css('-webkit-transform', 'translateY('+ startTranslateY +'px) translateZ(0)');
-//        console.log(startTranslateY , 'startY',window.getComputedStyle(e.currentTarget, null).getPropertyValue("-webkit-transform"));
+        $(this).css('-webkit-transform', 'translateX('+ startTranslateX +'px) translateZ(0)');
+//        console.log(startTranslateX , 'startX',window.getComputedStyle(e.currentTarget, null).getPropertyValue("-webkit-transform"));
 
         //touchstart的回调函数
         defaultObj.startCallback && defaultObj.startCallback($(this));
@@ -86,14 +86,14 @@ function slide(options) {
         touchLast_obj = e.touches[0];
 
         //计算滑动的移动距里
-        moveY = touchLast_obj.clientY - touchFirst_obj.startY;
-        currentTranslateY = +startTranslateY + +moveY;
+        moveX = touchLast_obj.clientX - touchFirst_obj.startX;
+        currentTranslateX = +startTranslateX + +moveX;
 
         //第一张往上、和最后一张往下 return；
-        if((startTranslateY ==0 && moveY > 0) || (startTranslateY == -window.innerHeight * (page_count-1) &&  moveY < 0)) {
+        if((startTranslateX ==0 && moveX > 0) || (startTranslateX == -window.innerWidth * (page_count-1) &&  moveX < 0)) {
             return;
         }
-        $(this).css('-webkit-transform', 'translateY('+ currentTranslateY +'px) translateZ(0)');
+        $(this).css('-webkit-transform', 'translateX('+ currentTranslateX +'px) translateZ(0)');
 
         //touchmove的回调函数
         defaultObj.moveCallback && defaultObj.moveCallback($(this));
@@ -103,17 +103,17 @@ function slide(options) {
         $(this).addClass('transition_fast');
 
         //上 或 下
-        if(moveY > slide_range) {
+        if(moveX > slide_range) {
             //第一页的话 不作处理
             if(cur_page == 0) return;
             cur_page--;
-        } else if(moveY < -slide_range) {
+        } else if(moveX < -slide_range) {
             //最后一页的话 return
             if(cur_page == +page_count-1) return;
             cur_page++;
         }
 
-        $(this).css('-webkit-transform', 'translateY('+ (-100 * (+cur_page)/page_count) +'%) translateZ(0)');
+        $(this).css('-webkit-transform', 'translateX('+ (-100 * (+cur_page)/page_count) +'%) translateZ(0)');
 
         //touchend的回调函数
         defaultObj.endCallback && defaultObj.endCallback($(this));

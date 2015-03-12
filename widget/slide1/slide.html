@@ -18,10 +18,34 @@
 <script src="./slide.js"></script>
 <script>
     /*
-    param1 滑动页面的class或者 id  -------------  (必传)
-    param2 一共几个滑动的页面      -------------  (必传)
-    param3 滑动页面委托事件的父节点，不传默认是document
+     slide_page_wrap          //滑动区域的class或者 id，            必传
+     slide_page_dom          //滑动页面的class或者 id，             必传
+     page_count              //一共滑动的页面的总个数               不必传（不传默认是page_dom.length）
+     startCallback:          //touchStart的回调函数                 不必传
+     moveCallback:           //touchmove的回调函数                  不必传
+     endCallback:            //touchend的回调函数                   不必传
      */
-   slide('.slide_page', 4, '.slide_div');
+
+    //调用滑动效果
+    slide({
+        slide_page_wrap: '.slide_div',   //滑动区域的class或者 id，    必传
+        slide_page_dom: '.slide_page',  //滑动页面的class或者 id，    必传
+        page_count: 4,                     //一共滑动的页面的总个数     不必传 （不传默认是page_dom.length）
+        //touchStart的回调函数
+
+        startCallback: function(scope) {
+            console.log('touch start', scope);
+        },
+
+        //touchmove的回调函数
+        moveCallback: function(scope) {
+            console.log('touch move', scope);
+        },
+
+        //touchend的回调函数
+        endCallback: function(scope) {
+            console.log('touch end', scope);
+        }
+    });
 </script>
 </html>
