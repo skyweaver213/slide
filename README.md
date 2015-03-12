@@ -10,4 +10,31 @@ demo3是带吸附功能的,用transition实现的，性能方面我觉得会比j
 <h2>widget</h2>
 widget目录是封装好的插件，slide1是不带吸附功能的(为了好扩展性用了demo2的方法，单独对每个page处理)<br/>
 slide2是带吸附功能的，用法的灰常简单，只需要调用一个方法传几个参数<br/>
-例如：  <b style="color:red;"> slide('.slide_div', 4, 150);</b>
+例如：  
+    /*
+     slide_page_dom          //滑动页面的class或者 id，             必传
+     page_count              //一共滑动的页面的总个数               必传
+     slide_range             //触发翻页效果移动的步长               不必传
+     startCallback:          //touchStart的回调函数                 不必传
+     moveCallback:           //touchmove的回调函数                  不必传
+     endCallback:            //touchend的回调函数                   不必传
+     */
+
+    //调用滑动效果
+    slide({
+        slide_page_dom: '.slide_div',   //滑动页面的class或者 id，    必传
+        page_count: 4,              //一共滑动的页面的总个数     必传
+        slide_range: 150,           //触发翻页效果移动的步长    不必传
+        //touchStart的回调函数
+        startCallback: function(scope) {
+            console.log('touch start', scope);
+        },
+        //touchmove的回调函数
+        moveCallback: function(scope) {
+            console.log('touch move', scope);
+        },
+        //touchend的回调函数
+        endCallback: function(scope) {
+            console.log('touch end', scope);
+        }
+    });
