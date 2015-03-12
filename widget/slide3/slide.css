@@ -10,15 +10,16 @@ html, body {
 }
 
 .slide_div {
-    width: 100%;
-    height: 400%;
+    width: 400%;
+    height: 100%;
     position: absolute;
 }
 
 .slide_page {
-    width: 100%;
-    height: calc(100% / 4);
+    width: calc(100% / 4);
+    height: 100%;
     background-size: 100% 100% !important;
+    float: left;
     position: relative;
 }
 .slide_page_1 {
@@ -49,38 +50,38 @@ html, body {
     -ms-animation: start 1.5s infinite ease-in-out;
     -o-animation: start 1.5s infinite ease-in-out;
     animation: start 1.5s infinite ease-in-out;
-    left: 50%;
-    bottom:3%;
+    right: 0;
+    top: 50%;
+}
+.slide_page_4:before {
+    display: none;
 }
 
-.slide_page_4:before {
-    content: none;
-}
 
 @-webkit-keyframes start {
-    0%,30% {opacity: 0; -webkit-transform: translate(0,10px); }
-    60% {opacity: 1; -webkit-transform: translate(0,0); }
-    100% {opacity: 0; -webkit-transform: translate(0,8px); }
+    0%,30% {opacity: 0; -webkit-transform: translate(-10px,0) rotate(90deg); }
+    60% {opacity: 1; -webkit-transform: translate(0,0) rotate(90deg); }
+    100% {opacity: 0; -webkit-transform: translate(-8px,0) rotate(90deg); }
 }
 @-moz-keyframes start {
-    0%,30% {opacity: 0; -moz-transform: translate(0,10px); }
-    60% {opacity: 1; -moz-transform: translate(0,0); }
-    100% {opacity: 0; -moz-transform: translate(0,8px); }
+    0%,30% {opacity: 0; -webkit-transform: translate(-10px,0) rotate(90deg); }
+    60% {opacity: 1; -webkit-transform: translate(0,0) rotate(90deg); }
+    100% {opacity: 0; -webkit-transform: translate(-8px,0) rotate(90deg); }
 }
 @-ms-keyframes start {
-    0%,30% {opacity: 0; -ms-transform: translate(0,10px); }
-    60% {opacity: 1; -ms-transform: translate(0,0); }
-    100% {opacity: 0; -ms-transform: translate(0,8px); }
+    0%,30% {opacity: 0; -webkit-transform: translate(-10px,0) rotate(90deg); }
+    60% {opacity: 1; -webkit-transform: translate(0,0) rotate(90deg); }
+    100% {opacity: 0; -webkit-transform: translate(-8px,0) rotate(90deg); }
 }
 @-o-keyframes start {
-    0%,30% {opacity: 0; -o-transform: translate(0,10px); }
-    60% {opacity: 1; -o-transform: translate(0,0); }
-    100% {opacity: 0; -o-transform: translate(0,8px); }
+    0%,30% {opacity: 0; -webkit-transform: translate(-10px,0) rotate(90deg); }
+    60% {opacity: 1; -webkit-transform: translate(0,0) rotate(90deg); }
+    100% {opacity: 0; -webkit-transform: translate(-8px,0) rotate(90deg); }
 }
 @keyframes start {
-0%,30% {opacity: 0; transform: translate(0,10px);}
-60% {opacity: 1; transform: translate(0,0);}
-100% {opacity: 0; transform: translate(0,8px);}
+    0%,30% {opacity: 0; -webkit-transform: translate(-10px,0) rotate(90deg); }
+    60% {opacity: 1; -webkit-transform: translate(0,0) rotate(90deg); }
+    100% {opacity: 0; -webkit-transform: translate(-8px,0) rotate(90deg); }
 }
 
 /************  transition  **************/
