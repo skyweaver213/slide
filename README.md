@@ -47,7 +47,7 @@ demo3是带吸附功能的,用transition实现的，性能方面我觉得会比j
         }
     });
 
-<h5>widget2,和widget3都是带吸附的，用法一致。</h5>
+<h5>widget2（垂直方向滑动）,和widget3(水平方向滑动)都是带吸附的，用法一致。</h5>
 
  /*
      slide_page_wrap          //滑动区域的class或者 id，            必传 <br/>
