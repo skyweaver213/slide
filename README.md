@@ -1,7 +1,7 @@
-demo预览：
-http://skyweaver213.github.io/slide/widget/slide1/slide.html
-http://skyweaver213.github.io/slide/widget/slide2/slide.html
-http://skyweaver213.github.io/slide/widget/slide3/slide.html  
+demo预览：<br/>
+http://skyweaver213.github.io/slide/widget/slide1/slide.html<br/>
+http://skyweaver213.github.io/slide/widget/slide2/slide.html<br/>
+http://skyweaver213.github.io/slide/widget/slide3/slide.html<br/>
 
 <h2>slide</h2>
 这是一个微信里经常看到的翻页效果。<br/>
