@@ -81,3 +81,5 @@ demo3是带吸附功能的,用transition实现的，性能方面我觉得会比j
             console.log('touch end', scope);
         }
     });
+
+//后续添加轮播更新
