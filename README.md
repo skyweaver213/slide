@@ -1,3 +1,8 @@
+demo预览：<br/>
+http://skyweaver213.github.io/slide/widget/slide1/slide.html<br/>
+http://skyweaver213.github.io/slide/widget/slide2/slide.html<br/>
+http://skyweaver213.github.io/slide/widget/slide3/slide.html<br/>
+
 <h2>slide</h2>
 这是一个微信里经常看到的翻页效果。<br/>
 demo1和demo2效果是一样的，没有吸附功能。<br/>
